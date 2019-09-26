@@ -11,7 +11,7 @@ public class WebviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         WebView webView = new WebView(this);
-        webView.loadUrl("http://google.dk");
+        webView.loadUrl("http://javabog.dk");
         setContentView(webView);
     }
 
